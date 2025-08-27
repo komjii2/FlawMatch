@@ -13,6 +13,8 @@ The related dataset can be downloaded via the following link.
 
 ## Code
 
+All related code can be found in the `example` folder.
+
 The code used for training is `train_1c_with_uncondition.py`, and its usage is described below.
 ```
 python train_1c_with_uncondition.py --batch_size 1024 --n_eps 50  --lr 1e-4  --label_num 233 --wh_w 64  --wh_h 64  --layer 5 --resblock 1    --dataset path_to_traindata
