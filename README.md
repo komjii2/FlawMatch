@@ -23,6 +23,10 @@ The code used for inference is `sampling_1c_cond.py`, and its usage is described
 python sampling_1c_cond.py --layer 5 --wh_w 64 --wh_h 64 --store_path path_to_model_pth
 ```
 
+The `torchcfm` folder is originally based on the code from https://github.com/atong01/conditional-flow-matching.
+We would like to thank **Alexander Tong** for creating and sharing the related code.
+
+
 ## Citation
 If you find our work helpful, please consider citing the following paper and ⭐ the repo.
 
