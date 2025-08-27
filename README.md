@@ -1,5 +1,5 @@
 # FlawMatch
-Official Repository for "FlawMatch: Conditional Defect Image Generation via Flow Matching for Improved Surface Defect Classification"
+Official Repository for "**FlawMatch: Conditional Defect Image Generation via Flow Matching for Improved Surface Defect Classification**"
 This repository contains the data and code used for the experiments in our paper, which are based on the public dataset KolektorSDD2.
 
 Before running the code, please install the required packages listed in `requirements.txt`.
@@ -26,7 +26,7 @@ python sampling_1c_cond.py --layer 5 --wh_w 64 --wh_h 64 --store_path path_to_mo
 ```
 
 The `torchcfm` folder is originally based on the code from https://github.com/atong01/conditional-flow-matching.
-We would like to thank **Alexander Tong** for creating and sharing the related code.
+We would like to thank *Alexander Tong* for creating and sharing the related code.
 
 
 ## Citation
